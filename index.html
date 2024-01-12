@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Virtual Piano</h2>
+            <div class="column volume-slider">
+                <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="column keys-check">
+                <span>Teclas</span> <input type="checkbox" checked>
+            </div>
+        </header>
+        <ul class="piano-keys">
+            <li class="key white" data-key="c5"><span>C</span></li>
+            <li class="key black" data-key="c_5"><span>C#</span></li>
+            <li class="key white" data-key="d5"><span>D</span></li>
+            <li class="key black" data-key="d_5"><span>D#</span></li>
+            <li class="key white" data-key="e5"><span>E</span></li>
+            <li class="key white" data-key="f5"><span>F</span></li>
+            <li class="key black" data-key="f_5"><span>F#</span></li>
+            <li class="key white" data-key="g5"><span>G</span></li>
+            <li class="key black" data-key="g_5"><span>G#</span></li>
+            <li class="key white" data-key="a5"><span>A</span></li>
+            <li class="key black" data-key="a_5"><span>A#</span></li>
+            <li class="key white" data-key="b5"><span>B</span></li>
+            <li class="key white" data-key="c6"><span>C</span></li>
+            <li class="key black" data-key="c_6"><span>C#</span></li>
+            <li class="key white" data-key="d6"><span>D</span></li>
+            <li class="key black" data-key="d_6"><span>D#</span></li>
+            <li class="key white" data-key="e6"><span>E</span></li>
+            <li class="key white" data-key="f6"><span>F</span></li>
+            <li class="key black" data-key="f_6"><span>F#</span></li>
+            <li class="key white" data-key="g6"><span>G</span></li>
+            <li class="key black" data-key="g_6"><span>G#</span></li>
+            <li class="key white" data-key="a6"><span>A</span></li>
+            <li class="key black" data-key="a_6"><span>A#</span></li>
+            <li class="key white" data-key="b6"><span>B</span></li>
+        </ul>
+    </div>
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>
